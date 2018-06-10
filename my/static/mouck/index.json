@@ -1,0 +1,133 @@
+{
+  "ret":true,
+  "data":{
+        "city":"深圳",
+        "swiperList":[{
+        	"id":"0001",
+        	"imgUrl":"https://img1.qunarzz.com/vc/56/c2/bc/94cd92692289c78770403648b5.jpg"
+        },{
+        	"id":"0002",
+        	"imgUrl":"https://img1.qunarzz.com/vc/d4/fc/ed/974a294eb0877c369fe5f526dc.jpg"
+        },{
+        	"id":"0003",
+        	"imgUrl":"https://img1.qunarzz.com/vc/ae/36/6e/8dd68dfb2e7cc35a7e9d4d9552.jpg"
+        },{
+        	"id":"0004",
+        	"imgUrl":"https://img1.qunarzz.com/vc/c4/b7/c7/09c7b3fd2cea88ebaa594d1fb8.jpg"
+        },{
+        	"id":"0005",
+        	"imgUrl":"https://img1.qunarzz.com/vc/54/d2/26/f1ea962ca736a76b80f3b67ddc.jpg"
+        }],
+        "iconList":[{
+					"id":"001",
+					"tex":"iconfont icon-span icon-scenery",
+					"desc":"景点门票"
+				},{
+					"id":"002",
+					"tex":"iconfont icon-span icon-Skiing",
+					"desc":"滑雪季"
+				},{
+					"id":"003",
+					"tex":"iconfont icon-span icon-wenquan",
+					"desc":"泡温泉"
+				},{
+					"id":"004",
+					"tex":"iconfont icon-span icon-menpiao_dongzhiwuyuan",
+					"desc":"动植物园"
+				},{
+					"id":"005",
+					"tex":"iconfont icon-span icon-meitimeirong",
+					"desc":"一日游"
+				},{
+					"id":"006",
+					"tex":"iconfont icon-span icon-bangdan",
+					"desc":"必游榜单"
+				},{
+					"id":"007",
+					"tex":"iconfont icon-span icon-ziranfengguang",
+					"desc":"自然风光"
+				},{
+					"id":"008",
+					"tex":"iconfont icon-span icon-quanbu",
+					"desc":"全部"
+				},{
+					"id":"009",
+					"tex":"iconfont icon-span icon-chujingyou",
+					"desc":"出境游"
+				}],
+				"recommendList":[{
+			 	  	"id":"001",
+			 	  	"imgs":"https://img1.qunarzz.com/travel/poi/1804/d3/6d628c040c951e37.jpg",
+			 	  	"title":"青青世界",
+				    "desc":"融入大自然，体会田园之乐",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"2031评论",
+					"mu":40 
+			 	  },{
+			 	  	"id":"002",
+			 	  	"imgs":"https://imgs.qunarzz.com/p/tts2/1708/3a/a2f85eb43240ab02.jpg_r_480x320x90_bd132782.jpg",
+			 	  	"title":"世界之窗",
+					"desc":"全球微缩景点，精彩演绎，娱乐项目应有尽有",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"223930评论",
+					"mu":39.9 
+			 	  },{
+			 	  	"id":"003",
+			 	  	"imgs":"https://imgs.qunarzz.com/p/p48/201302/28/e9603bf3a8f7fbfd93835fbb.jpg_256x160_91a0d66d.jpg",
+			 	  	"title":"欢乐谷",
+					"desc":"狂欢无罪，够胆你就来",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"189002评论",
+					"mu":68.5    
+			 	  },{
+			 	  	"id":"004",
+			 	  	"imgs":"https://imgs.qunarzz.com/p/p38/201302/28/20044234cac2e13693835fbb.jpg_256x160_407e0619.jpg",
+			 	  	"title":"华侨城",
+					"desc":"世界几千年人类文明精华为您一次呈现",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"189565评论",
+					"mu":39.9 
+			 	  },{
+			 	  	"id":"005",
+			 	  	"imgs":"https://imgs.qunarzz.com/p/p48/201302/28/bc44faa497db0dcf93835fbb.jpg_256x160_0ba13461.jpg",
+			 	  	"title":"锦绣中华",
+					"desc":"深圳小人国——实景微缩景区候选世界纪录",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"202302评论",
+					"mu":55 
+			 	  }],
+			 	  "recommendLists":[{
+					"id":"001",
+					"imgs":"https://imgs.qunarzz.com/p/tts6/1804/61/dde030a52f48c002.jpg_r_390x260x90_4922c778.jpg",
+					"title":"青青世界",
+				    "desc":"融入大自然，体会田园之乐",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"2031评论",
+					"mu":40 
+				},{
+					"id":"002",
+					"imgs":"https://imgs.qunarzz.com/p/tts6/1802/d8/6d9c6f611fc1c202.jpg_r_390x260x90_32c5210a.jpg",
+					"title":"青青世界",
+				    "desc":"融入大自然，体会田园之乐",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"2031评论",
+					"mu":40 
+				},{
+					"id":"003",
+					"imgs":"https://imgs.qunarzz.com/p/tts4/1704/1f/344eb5efa16c2202.jpg_r_390x260x90_f51774e7.jpg",
+					"title":"青青世界",
+				    "desc":"融入大自然，体会田园之乐",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"2031评论",
+					"mu":40 
+				},{
+					"id":"004",
+					"imgs":"https://imgs.qunarzz.com/p/tts9/1711/7f/b2e2ab39473e2202.jpg_r_390x260x90_ebb50936.jpg",
+					"title":"青青世界",
+				    "desc":"融入大自然，体会田园之乐",
+					"ico":"iconfont icon-icon_pinglunxingxing_h",
+					"tets":"2031评论",
+					"mu":40 
+				}]
+  }
+}
