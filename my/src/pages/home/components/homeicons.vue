@@ -2,10 +2,10 @@
   <div class="container">
   	<swiper :options="swiperOption">
   		<swiper-slide v-for="page of pages" :key="page.id">
-		  	<div class="icon-logo" v-for="item of iconList" :key="item.id">
-		  		<span v-bind:class="item.tex" ></span>
+		  	<router-link tag="div" to="" class="icon-logo" v-for="item of iconList" :key="item.id">
+		  		<span to="" v-bind:class="item.tex" ></span>
 		  		<p class="icon-p">{{item.desc}}</p>
-		  	</div>
+		  	</router-link>
   	   </swiper-slide>
   	</swiper>
   </div>
