@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/home'
 import City from '@/pages/city/City'
-import Tab from '@/pages/tablist/tablist'
+import Find from '@/pages/find/find'
+import Shop from '@/pages/shop/shop'
+import User from '@/pages/user/user'
 Vue.use(Router)
 
 export default new Router({
@@ -18,9 +20,19 @@ export default new Router({
     	component:City
     },
     {
-    	path:'/tab',
-    	name:'Tab',
-    	component:Tab
+    	path:'/find',
+    	name:'Find',
+    	component:Find
+    },
+    {
+      path:'/shop',
+      name:'Shop',
+      component:Shop
+    },
+    {
+      path:'/user',
+      name:'User',
+      component:User
     }
   ]
 })

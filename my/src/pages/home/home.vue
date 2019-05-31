@@ -1,10 +1,11 @@
 <template>
   <div>
-      <home-header :city="city"> </home-header>
-      <home-swiper :swiperList="swiperList"></home-swiper>
+      <home-header :city="city" class="fixhead"> </home-header>
+      <home-swiper :swiperList="swiperList" class="lunbo"></home-swiper>
       <home-icons :iconList="iconList"></home-icons>
       <home-recommend :recommendList="recommendList"></home-recommend>
-      <home-weekend :recommendLists="recommendLists"></home-weekend>
+      <home-weekend :recommendLists="recommendLists" class="Lis"></home-weekend>
+      <home-footer></home-footer>
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 	import HomeIcons from './components/homeicons'
 	import HomeRecommend from './components/recommend'
 	import HomeWeekend from './components/weekend'
+	import HomeFooter from './components/footer'
 	import axios from 'axios'
 	export default{
 		name:'Home',
@@ -22,11 +24,12 @@
 			HomeSwiper,
 			HomeIcons,
 			HomeRecommend,
-			HomeWeekend
+			HomeWeekend,
+			HomeFooter
 		},
 		data (){
 			return{
-				city:'',
+				city:'',		
 				swiperList:[],
 				iconList:[],
 				recommendList:[],
@@ -57,4 +60,17 @@
 </script>
 
 <style>
+	.fixhead{
+		width:100%;
+		position: fixed;
+		top:0;
+		left:0;
+		z-index: 3;
+	}
+	.lunbo{
+		margin-top:2.6789rem;
+	}
+	.Lis{
+		margin-bottom:2.6789rem;
+	}
 </style>
